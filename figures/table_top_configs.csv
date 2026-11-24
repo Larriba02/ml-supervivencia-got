@@ -1,0 +1,11 @@
+algorithm,configuration,cv_f1_macro
+RandomForest,"max_depth=12, min_samples_leaf=1, n_estimators=500",0.739
+RandomForest,"max_depth=12, min_samples_leaf=1, n_estimators=300",0.737
+RandomForest,"max_depth=None, min_samples_leaf=3, n_estimators=500",0.733
+RandomForest,"max_depth=12, min_samples_leaf=3, n_estimators=500",0.732
+RandomForest,"max_depth=None, min_samples_leaf=3, n_estimators=300",0.731
+RandomForest,"max_depth=12, min_samples_leaf=3, n_estimators=300",0.731
+RandomForest,"max_depth=8, min_samples_leaf=1, n_estimators=300",0.723
+RandomForest,"max_depth=8, min_samples_leaf=1, n_estimators=500",0.722
+RandomForest,"max_depth=None, min_samples_leaf=1, n_estimators=500",0.72
+RandomForest,"max_depth=None, min_samples_leaf=1, n_estimators=300",0.718

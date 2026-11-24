@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+_data/
+*.pt
+*.h5
+*.npz
+~$*
+.DS_Store
+Thumbs.db

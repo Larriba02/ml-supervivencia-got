@@ -1,0 +1,26 @@
+algorithm,configuration,cv_f1_macro
+KNN,"k=5,uniform",0.655
+KNN,"k=5,distance",0.656
+KNN,"k=11,distance",0.648
+KNN,"k=15,distance",0.652
+KNN,"k=21,distance",0.636
+DecisionTree,"d=3,leaf=1",0.642
+DecisionTree,"d=5,leaf=5",0.662
+DecisionTree,"d=8,leaf=5",0.671
+DecisionTree,"d=None,leaf=5",0.673
+DecisionTree,"d=None,leaf=10",0.666
+Bayesian,GaussianNB vs=1e-9,0.534
+Bayesian,GaussianNB vs=1e-6,0.541
+Bayesian,GaussianNB vs=1e-3,0.575
+Bayesian,BernoulliNB a=0.5,0.638
+Bayesian,BernoulliNB a=1.0,0.634
+SVM,"C=0.1,rbf",0.624
+SVM,"C=1,rbf",0.687
+SVM,"C=10,rbf",0.681
+SVM,"C=1,linear",0.632
+SVM,"C=5,rbf",0.689
+RandomForest,"n=300,d=None,leaf=1",0.709
+RandomForest,"n=300,d=12,leaf=1",0.73
+RandomForest,"n=500,d=12,leaf=3",0.724
+RandomForest,"n=300,d=8,leaf=3",0.721
+RandomForest,"n=500,d=None,leaf=3",0.723
