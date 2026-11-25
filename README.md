@@ -123,6 +123,7 @@ Python 3.10+ con `pandas`, `numpy`, `scikit-learn`, `scipy`, `matplotlib` y `sea
 ```
 got_supervivencia.ipynb   notebook completo (EDA → fugas → 5 modelos con CV → evaluación → reducción)
 got_dataset.csv           dataset
+memoria.pdf               memoria del proyecto
 figures/                  figuras y tablas exportadas
 ```
 
